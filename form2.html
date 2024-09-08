@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder By Hala farooqui</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Persnol Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="text" id="name" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education:</label>
+        <textarea  id="education" name="Education" rows="4" required > </textarea><br>
+    </fieldset>
+        
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="Experience">Experience:</label>
+    <textarea  id="Experience" name="Experience" rows="4" required > </textarea><br>
+</fieldset>
+<fieldset>
+    <legend>skills</legend>
+    <label for="skills">skills:</label>
+<textarea  id="skills" name="skills" rows="4" required > </textarea><br>
+</fieldset>
+<button type="submit">Generate Resume Below</button>
+
+        </fieldset>
+
+
+
+        
+    </form>
+    <div id="resumeoutput">
+
+    </div>
+    <script src="form.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
